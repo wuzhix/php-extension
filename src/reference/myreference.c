@@ -37,7 +37,7 @@ PHP_FUNCTION(myreference_set_ref)
     {
         RETURN_NULL();
     }
-    ZVAL_STRING(&(a->value.ref->val),"modify param");
+    ZVAL_STRING(Z_REFVAL_P(a),"modify param");
 
     return;
 }
