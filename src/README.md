@@ -4,6 +4,7 @@
 * [基础数据变量](/src/variable)
 * [函数传引用参数](/src/reference)
 * [数组的增删改查](/src/array)
+* [类的使用](/src/class)
 
 linux环境生成扩展的步骤：
 
