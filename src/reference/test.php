@@ -1,5 +1,5 @@
 <?php
-//加载myvariable扩展
+//加载myreference扩展
 if (!extension_loaded('myreference')) {
     if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
         dl('php_myreference.dll');

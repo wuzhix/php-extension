@@ -6,6 +6,7 @@
 * [数组的增删改查](/src/array)
 * [类的使用](/src/class)
 * [资源的使用](/src/resource)
+* [读写ini配置文件](/src/ini)
 
 linux环境生成扩展的步骤：
 
@@ -22,3 +23,5 @@ linux环境生成扩展的步骤：
 1. 修改php.ini的配置改为enable_dl = On
 2. 将编译生成的so文件拷贝到php的扩展目录
 3. 在扩展源码目录执行php test.php查看结果
+
+**所有扩展和用例均在php7.0.6版本下编译和运行通过，请放心使用^_^**

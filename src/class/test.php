@@ -1,5 +1,5 @@
 <?php
-//加载myvariable扩展
+//加载myclass扩展
 if (!extension_loaded('myclass')) {
     if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
         dl('php_myclass.dll');

@@ -1,5 +1,5 @@
 <?php
-//加载hello扩展
+//加载myinit扩展
 if (!extension_loaded('myinit')) {
     if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
         dl('php_myinit.dll');
