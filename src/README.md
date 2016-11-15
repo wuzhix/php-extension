@@ -7,6 +7,7 @@
 * [类的使用](/src/class)
 * [资源的使用](/src/resource)
 * [读写ini配置文件](/src/ini)
+* [扩展调用php函数](/src/callback)
 
 linux环境生成扩展的步骤：
 
